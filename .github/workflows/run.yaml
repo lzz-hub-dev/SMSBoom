@@ -3,7 +3,7 @@ name: 🚀 Run SMSBoom in Action
 # 触发 Action 的条件
 on: 
   # 定时触发 参考 https://docs.github.com/cn/actions/using-workflows/events-that-trigger-workflows#schedule
-  # schedule:
+   schedule:
        - cron: '0 17 * * *'
   #     - cron: '30 5 * * 2,4'
   # 手动触发
